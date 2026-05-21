@@ -1,0 +1,233 @@
+/* ============================================================
+   北海道 旅のしおり ─ 個別ページ用デザイン
+   このファイルは編集しないでください（全体の見た目が崩れます）
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-feature-settings: "palt";
+  color: #333;
+  background: #FFFAF5;
+  line-height: 1.9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-top: 56px; /* 固定ナビの高さ分 */
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: #E8793B; }
+ul { list-style: none; }
+
+:root {
+  --orange: #E8793B;
+  --orange-light: #FFF0E6;
+  --orange-deep: #D4622A;
+  --yellow-light: #FFF8E1;
+  --green: #4CAF93;
+  --green-light: #E8F5F0;
+  --ink: #333333;
+  --ink-soft: #666666;
+  --ink-muted: #999999;
+  --bg-white: #FFFFFF;
+  --line: #F0E6DC;
+  --radius: 16px;
+}
+
+/* ===== 上部ナビ（旅のしおりトップに戻る） ===== */
+.nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 50;
+  background: rgba(255, 250, 245, 0.92);
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid rgba(240, 230, 220, 0.6);
+}
+.nav__inner {
+  max-width: 760px; margin: 0 auto;
+  padding: 12px 24px;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+}
+.nav__back {
+  font-size: 14px; font-weight: 700; color: var(--orange);
+  text-decoration: none;
+  display: inline-flex; align-items: center; gap: 6px;
+  transition: opacity 0.2s ease;
+}
+.nav__back:hover { opacity: 0.65; }
+.nav__badge {
+  font-size: 11px; font-weight: 700; color: var(--orange);
+  background: var(--orange-light);
+  padding: 5px 12px; border-radius: 999px;
+  letter-spacing: 0.04em; white-space: nowrap;
+}
+
+/* ===== レイアウト ===== */
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+/* ===== ページ見出し（ヒーロー） ===== */
+.hero { padding: 48px 0 36px; }
+.hero__eyebrow {
+  display: inline-block;
+  font-size: 12px; font-weight: 700; letter-spacing: 0.16em;
+  color: var(--orange); background: var(--orange-light);
+  padding: 7px 15px; border-radius: 999px;
+  margin-bottom: 20px;
+}
+.hero__title {
+  font-size: clamp(28px, 6vw, 42px);
+  font-weight: 900; line-height: 1.35;
+  color: var(--ink); margin-bottom: 18px;
+}
+.hero__lead {
+  font-size: 16px; color: var(--ink-soft); line-height: 2;
+}
+.hero__photo { margin-top: 28px; }
+.hero__photo img { border-radius: var(--radius); width: 100%; }
+
+/* ===== 本文セクション ===== */
+.section { padding: 24px 0; }
+.section__title {
+  font-size: clamp(20px, 4vw, 26px);
+  font-weight: 800; color: var(--ink);
+  margin-bottom: 18px;
+  padding-bottom: 8px;
+  border-bottom: 3px solid var(--orange);
+  display: inline-block;
+}
+.section p { font-size: 15.5px; color: #444; margin-bottom: 16px; }
+.section h3 {
+  font-size: 18px; font-weight: 800; color: var(--ink);
+  margin: 28px 0 12px;
+}
+.lead {
+  font-size: 16.5px; color: var(--ink-soft);
+  line-height: 2; margin-bottom: 20px;
+}
+
+/* ===== チェックリスト風のリスト ===== */
+.list { margin: 0 0 18px; }
+.list li {
+  position: relative; padding-left: 26px;
+  font-size: 15.5px; color: #444; margin-bottom: 10px;
+}
+.list li::before {
+  content: "\2713"; position: absolute; left: 0;
+  color: var(--orange); font-weight: 800;
+}
+
+/* ===== 写真 ===== */
+.photo { margin: 24px 0; }
+.photo img { border-radius: var(--radius); width: 100%; }
+.photo figcaption {
+  font-size: 13px; color: var(--ink-muted);
+  text-align: center; margin-top: 8px;
+}
+/* 写真がまだ無いときの「ここに写真」プレースホルダー */
+.photo-ph {
+  border: 2px dashed #E5D5C5;
+  border-radius: var(--radius);
+  background: #FFF7EF;
+  color: var(--ink-muted);
+  font-size: 13px; font-weight: 700;
+  text-align: center;
+  padding: 52px 20px;
+  margin: 24px 0;
+}
+
+/* ===== お店・スポット紹介カード ===== */
+.spot {
+  background: var(--bg-white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin: 20px 0;
+}
+.spot__name {
+  font-size: 19px; font-weight: 800; color: var(--ink);
+  margin-bottom: 14px;
+}
+.spot__meta {
+  display: grid; grid-template-columns: auto 1fr;
+  gap: 6px 16px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.spot__meta dt { font-weight: 700; color: var(--orange); }
+.spot__meta dd { color: var(--ink-soft); }
+.spot__body { font-size: 14.5px; color: #444; }
+
+/* ===== コツ・注意のボックス ===== */
+.tip, .warn {
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  margin: 22px 0;
+  font-size: 14.5px; line-height: 1.9;
+  color: #444;
+}
+.tip { background: var(--green-light); border: 1px solid #BFE5D8; }
+.warn { background: var(--yellow-light); border: 1px solid #FDE68A; }
+.tip__title, .warn__title {
+  font-weight: 800; margin-bottom: 6px;
+  display: flex; align-items: center; gap: 6px;
+}
+.tip__title { color: #2E7D6A; }
+.warn__title { color: #B8860B; }
+
+/* ===== タグ ===== */
+.tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+.tag {
+  font-size: 12px; font-weight: 700;
+  color: var(--orange); background: var(--orange-light);
+  padding: 5px 13px; border-radius: 999px;
+}
+
+/* ===== 担当者プロフィール（このページを書いた人） ===== */
+.author {
+  margin: 48px 0 36px;
+  background: var(--bg-white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 28px;
+  display: flex; gap: 20px; align-items: center;
+}
+.author__avatar {
+  width: 72px; height: 72px; border-radius: 50%;
+  object-fit: cover; flex-shrink: 0;
+  background: var(--orange-light);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 30px;
+}
+.author__body { flex: 1; }
+.author__label {
+  font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
+  color: var(--ink-muted); margin-bottom: 4px;
+}
+.author__name {
+  font-size: 17px; font-weight: 800; color: var(--ink);
+  margin-bottom: 6px;
+}
+.author__bio {
+  font-size: 13.5px; color: var(--ink-soft); line-height: 1.8;
+  margin-bottom: 8px;
+}
+.author__link {
+  font-size: 13px; font-weight: 700; color: var(--orange);
+  text-decoration: none;
+}
+.author__link:hover { opacity: 0.65; }
+
+/* ===== フッター ===== */
+.footer {
+  background: #333; color: #999;
+  text-align: center; padding: 28px 24px;
+  font-size: 13px; line-height: 2;
+}
+.footer a { color: #FFD9B3; }
+
+/* ===== スマホ ===== */
+@media (max-width: 600px) {
+  .author { flex-direction: column; text-align: center; }
+  .author__avatar { width: 80px; height: 80px; }
+  .spot__meta { grid-template-columns: 1fr; gap: 2px 0; }
+  .spot__meta dt { margin-top: 8px; }
+}

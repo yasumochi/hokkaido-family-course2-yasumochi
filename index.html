@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ▼ ① ページの説明文（検索結果に出ます）。自分のページに合わせて書き換えてください -->
+  <meta name="description" content="札幌大交流会の旅のしおり。〇〇について地元目線で紹介します。" />
+
+  <!-- ▼ ② ブラウザのタブに出るタイトル。「〇〇」を自分のページのテーマに変えてください -->
+  <title>〇〇 | 北海道 旅のしおり</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== 上部ナビ：このまま触らなくてOK（旅のしおりトップへ戻るボタン） ===== -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="nav__back" href="https://hokkaido-trip-guide.pages.dev">&#8592; 旅のしおりトップ</a>
+      <span class="nav__badge">札幌大交流会 2026.7</span>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== ページの見出し ===== -->
+    <section class="hero wrap">
+      <!-- ▼ 小さなラベル。カテゴリを入れます（例：グルメ／観光／旅の準備 など） -->
+      <p class="hero__eyebrow">カテゴリ名</p>
+
+      <!-- ▼ ページの大見出し -->
+      <h1 class="hero__title">ここにページのタイトル</h1>
+
+      <!-- ▼ このページで何が分かるか、2〜3行で -->
+      <p class="hero__lead">
+        ここにリード文を書きます。<br />
+        道外から来てくれる仲間に向けて、このページを読むと何が分かるのかを伝えましょう。
+      </p>
+
+      <!-- ▼ メイン写真を入れる場合は、下の photo-ph を消して、コメントの中の figure を使ってください -->
+      <div class="photo-ph">ここにメイン写真（images フォルダに入れた写真）</div>
+      <!--
+      <figure class="hero__photo">
+        <img src="images/main.jpg" alt="写真がどんな内容かの説明" />
+      </figure>
+      -->
+    </section>
+
+    <div class="wrap">
+
+      <!-- ============================================================
+           ここから下が本文です。
+           セクションは「コピーして増やす／いらないものは消す」でOKです。
+           ============================================================ -->
+
+      <!-- ===== 本文セクション（文章・写真・リスト） ===== -->
+      <section class="section">
+        <h2 class="section__title">見出し</h2>
+        <p>
+          ここに本文を書きます。地元の人だから知っているリアルな情報や、
+          実際に行ってよかった体験を書くと、読む人にとても喜ばれます。
+        </p>
+        <p>
+          段落を分けたいときは、このように &lt;p&gt; をもう一つ作ります。
+        </p>
+
+        <!-- 写真を入れる場所（写真ができたら photo-ph を消して下のコメントの figure に） -->
+        <div class="photo-ph">ここに写真</div>
+        <!--
+        <figure class="photo">
+          <img src="images/sample.jpg" alt="写真がどんな内容かの説明" />
+          <figcaption>写真のキャプション（ひとこと説明）</figcaption>
+        </figure>
+        -->
+
+        <!-- 伝えたいことを箇条書きにしたいとき -->
+        <ul class="list">
+          <li>伝えたいポイントを箇条書きで</li>
+          <li>3〜5個くらいが読みやすいです</li>
+          <li>いらなければ、このリストごと消してOK</li>
+        </ul>
+      </section>
+
+      <!-- ===== お店・スポットの紹介カード（紹介したい数だけコピー） ===== -->
+      <section class="section">
+        <h2 class="section__title">おすすめのお店・スポット</h2>
+
+        <div class="spot">
+          <p class="spot__name">お店・スポットの名前</p>
+          <dl class="spot__meta">
+            <dt>場所</dt><dd>札幌市〇〇区〇〇（最寄り駅など。番地まで書かなくてOK）</dd>
+            <dt>予算</dt><dd>1,000〜2,000円くらい</dd>
+            <dt>時間</dt><dd>11:00〜21:00（定休日：水曜）</dd>
+          </dl>
+          <p class="spot__body">
+            このお店・スポットのおすすめポイントや、行ってみた感想を書きます。
+          </p>
+        </div>
+
+        <!-- ↑ この <div class="spot"> ... </div> をコピーすれば、お店を増やせます -->
+      </section>
+
+      <!-- ===== コツ・注意のボックス（必要なものだけ残す） ===== -->
+      <div class="tip">
+        <p class="tip__title">&#128161; ちょっとしたコツ</p>
+        知っておくと得する情報や、おすすめの楽しみ方をここに書きます。
+      </div>
+
+      <div class="warn">
+        <p class="warn__title">&#9888; 注意してほしいこと</p>
+        予約が必要・混雑しやすい時間帯など、気をつけてほしいことをここに書きます。
+      </div>
+
+      <!-- ===== 担当者プロフィール：このページを書いた人 ===== -->
+      <!-- ▼ お名前・ひとこと・リベシティのプロフィールURLを入れてください -->
+      <aside class="author">
+        <!-- 顔写真を入れる場合は、下の <div> を消して
+             <img class="author__avatar" src="images/me.jpg" alt="" /> に置きかえてください -->
+        <div class="author__avatar">&#128075;</div>
+        <div class="author__body">
+          <p class="author__label">このページを書いた人</p>
+          <p class="author__name">あなたのお名前（ニックネームでOK）</p>
+          <p class="author__bio">
+            自己紹介をひとこと。北海道との関わりや、ふだんの活動など。
+          </p>
+          <a class="author__link" href="リベシティのプロフィールURL" target="_blank" rel="noopener">
+            リベシティのプロフィールを見る &#8594;
+          </a>
+        </div>
+      </aside>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 リベシティ北海道支部 ／ 北海道 旅のしおり</p>
+    <p><a href="https://hokkaido-trip-guide.pages.dev">&#8592; 旅のしおりトップにもどる</a></p>
+  </footer>
+
+</body>
+</html>
