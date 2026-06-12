@@ -459,3 +459,25 @@ ul { list-style: none; }
 .plan-card--hidden {
   display: none !important;
 }
+
+
+/* ===== マップピン（スケジュール内の地図リンク） ===== */
+.map-pin {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 9px;
+  background: var(--guide-green);
+  color: var(--guide-green-ink);
+  border: 1px solid var(--guide-green-ink);
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: 0.1em;
+  transition: background 0.15s, color 0.15s;
+}
+.map-pin:hover {
+  background: var(--guide-green-ink);
+  color: #fff;
+}
