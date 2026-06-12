@@ -59,7 +59,7 @@
 
 ---
 
-## 🎨 ヒーロー画像
+## 🎨 ヒーロー画像（メインビジュアル）
 
 **URL**: https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course1.png
 
@@ -67,7 +67,41 @@
 - 複数のベビーカー・小さな子どもが描かれていて、まさに「乳幼児3家族」のイメージ
 - 1280px幅・PNG形式
 
-> 💡 もし他のスポット（札幌駅・丸海屋・サッポロファクトリーなど）の画像も必要な場合は、リクエストいただければ追加で生成・提供できます。
+---
+
+## 🖼️ カルーセル画像（全5枚・スポット別）
+
+カルーセル表示用の画像セットです。各スポットに最適な画像を割り当てています。
+
+### 1. 札幌駅集合
+- **URL**: https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course5.png
+- **キャプション**: 札幌駅集合
+- 内容: 札幌駅前の家族風景（油絵タッチ）
+
+### 2. 赤れんが庁舎（メイン）
+- **URL**: https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course1.png
+- **キャプション**: 赤れんが庁舎
+- 内容: 赤れんが庁舎前で複数家族がベビーカー散歩
+
+### 3. サッポロファクトリー
+- **URL**: https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course3.png
+- **キャプション**: サッポロファクトリー
+- 内容: サッポロファクトリーのガラス屋根アトリウム
+
+### 4. フォーシーズン ディナー
+- **URL**: https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course6.png
+- **キャプション**: フォーシーズン ディナー
+- 内容: 高層ホテルレストランで家族食事
+
+### 5. 北菓楼 札幌本館
+- **URL**: https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course9.png
+- **キャプション**: 北菓楼 札幌本館
+- 内容: カフェで家族スイーツタイム
+
+> 💡 すべて油絵タッチ・統一感のあるスタイルです。
+
+> 📦 **course-data 内の `images` 配列**として上記URLを構造化済みです。
+> kokimama さんサイトで `images` フィールドを参照すれば、カルーセル表示にそのまま使えます。
 
 ---
 
@@ -80,6 +114,13 @@
 {
   id: "stay-01",
   image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course1.png",
+  images: [
+    { step: "札幌駅集合", url: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course5.png" },
+    { step: "赤れんが庁舎", url: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course1.png" },
+    { step: "サッポロファクトリー", url: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course3.png" },
+    { step: "フォーシーズン ディナー", url: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course6.png" },
+    { step: "北菓楼 札幌本館", url: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course9.png" }
+  ],
   creator: "やすもち",
   title: "1泊-01 札幌レトロ建築コース",
   subtitle: "乳幼児3家族10〜12名で巡る、札幌の歴史と建築",
