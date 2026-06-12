@@ -4,11 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- ▼ ① ページの説明文（検索結果に出ます）。自分のページに合わせて書き換えてください -->
-  <meta name="description" content="札幌大交流会の旅のしおり。〇〇について地元目線で紹介します。" />
+  <meta name="description" content="札幌大交流会の旅のしおり。道外から来られる乳幼児連れご家族3組（10〜12名）の合同・1泊2日（7/10金〜7/11土）旅行向け、札幌中心部モデルコース10選。店舗情報・Google Maps完備。" />
 
-  <!-- ▼ ② ブラウザのタブに出るタイトル。「〇〇」を自分のページのテーマに変えてください -->
-  <title>〇〇 | 北海道 旅のしおり</title>
+  <title>家族・子連れモデルコース②（乳幼児3家族合同・1泊2日プラン10選） | 北海道 旅のしおり</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +15,6 @@
 </head>
 <body>
 
-  <!-- ===== 上部ナビ：このまま触らなくてOK（旅のしおりトップへ戻るボタン） ===== -->
   <header class="nav">
     <div class="nav__inner">
       <a class="nav__back" href="https://hokkaido-trip-guide.pages.dev">&#8592; 旅のしおりトップ</a>
@@ -26,140 +23,542 @@
   </header>
 
   <main>
-    <!-- ===== ページの見出し ===== -->
-    <section class="hero wrap">
-      <!-- ▼ 小さなラベル。カテゴリを入れます（例：グルメ／観光／旅の準備 など） -->
-      <p class="hero__eyebrow">カテゴリ名</p>
-
-      <!-- ▼ ページの大見出し -->
-      <h1 class="hero__title">ここにページのタイトル</h1>
-
-      <!-- ▼ このページで何が分かるか、2〜3行で -->
-      <p class="hero__lead">
-        ここにリード文を書きます。<br />
-        道外から来てくれる仲間に向けて、このページを読むと何が分かるのかを伝えましょう。
-      </p>
-
-      <!-- ▼ メイン写真を入れる場合は、下の photo-ph を消して、コメントの中の figure を使ってください -->
-      <div class="photo-ph">ここにメイン写真（images フォルダに入れた写真）</div>
-      <!--
-      <figure class="hero__photo">
-        <img src="images/main.jpg" alt="写真がどんな内容かの説明" />
-      </figure>
-      -->
+    <section class="hero">
+      <div class="hero__image" aria-hidden="true"></div>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Family Course ② ／ 1泊2日 × 10プラン</p>
+        <h1 class="hero__title">乳幼児3家族で巡る<br />札幌・1泊2日プラン10選</h1>
+        <p class="hero__lead">
+          2026年<strong>7月10日（金）〜11日（土）</strong>、道外から来られる乳幼児連れご家族3組へ。<br />
+          家族3組（10〜12名）で合同で巡れる、札幌中心部の1泊2日プランを<strong>10通り</strong>。
+        </p>
+        <nav class="hero__nav" aria-label="プランへ移動">
+          <a href="#plan1">① レトロ建築</a>
+          <a href="#plan2">② 絶景お買い物</a>
+          <a href="#plan3">③ 雨の日OK</a>
+          <a href="#plan4">④ 海鮮・寿司</a>
+          <a href="#plan5">⑤ 駅完結</a>
+          <a href="#plan6">⑥ ハイクラス</a>
+          <a href="#plan7">⑦ 北大カフェ</a>
+          <a href="#plan8">⑧ 中島公園</a>
+          <a href="#plan9">⑨ スイーツ</a>
+          <a href="#plan10">⑩ 朝活市場</a>
+        </nav>
+      </div>
+      <span class="hero__note">※イメージ画像（AI生成）</span>
     </section>
 
     <div class="wrap">
 
-      <!-- ============================================================
-           ここから下が本文です。
-           セクションは「コピーして増やす／いらないものは消す」でOKです。
-           ============================================================ -->
-
-      <!-- ===== 本文セクション（文章・写真・リスト） ===== -->
       <section class="section">
-        <h2 class="section__title">見出し</h2>
-        <p>
-          ここに本文を書きます。地元の人だから知っているリアルな情報や、
-          実際に行ってよかった体験を書くと、読む人にとても喜ばれます。
-        </p>
-        <p>
-          段落を分けたいときは、このように &lt;p&gt; をもう一つ作ります。
-        </p>
-
-        <!-- 写真を入れる場所（写真ができたら photo-ph を消して下のコメントの figure に） -->
-        <div class="photo-ph">ここに写真</div>
-        <!--
-        <figure class="photo">
-          <img src="images/sample.jpg" alt="写真がどんな内容かの説明" />
-          <figcaption>写真のキャプション（ひとこと説明）</figcaption>
-        </figure>
-        -->
-
-        <!-- 伝えたいことを箇条書きにしたいとき -->
+        <h2 class="section__title">このページについて</h2>
         <ul class="list">
-          <li>伝えたいポイントを箇条書きで</li>
-          <li>3〜5個くらいが読みやすいです</li>
-          <li>いらなければ、このリストごと消してOK</li>
+          <li><strong>1日目（7/10金）</strong>：新千歳空港到着 → 札幌でゆったり観光 → ホテル泊</li>
+          <li><strong>2日目（7/11土・交流会本番）</strong>：ホテル朝食 → 午前観光 → 12:30〜13:00 交流会会場へ</li>
+          <li>札幌中心部で完結、徒歩・地下歩行空間・短いタクシー移動だけ</li>
+          <li>ランチ・ディナーは<strong>10名以上対応の個室予約OK</strong>を厳選</li>
+          <li>各観光スポットは<strong>授乳室・おむつ替え・ベビーカー対応</strong>を確認</li>
         </ul>
       </section>
 
-      <!-- ============================================================
-           お店・スポットの紹介
-           「お店ごとにカード1枚」で並べます。各カードに「タグ」をつけると、
-           上のフィルターでタイプ別にしぼりこめます。
-           ※モデルコース・気候など、お店リストでないページは
-             この <section> ごと消してOKです。
-           ============================================================ -->
+      <!-- ===== プランしぼり込みフィルター ===== -->
       <section class="section">
-        <h2 class="section__title">おすすめのお店・スポット</h2>
+        <h2 class="section__title">プランをしぼり込む</h2>
+        <p>条件をタップすると、ぴったりのプランが表示されます（複数選択OK）。</p>
 
-        <!-- ▼ しぼりこみフィルター
-             お店が4軒以上あると便利です。
-             3軒以下のときは、この <div class="filter"> ... </div> ごと消してOK。 -->
-        <div class="filter">
-          <p class="filter__label">タイプでしぼりこむ</p>
-          <div class="filter__chips">
-            <button class="filter__chip filter__chip--active" data-filter="all">すべて</button>
-            <button class="filter__chip" data-filter="solo">ひとりOK</button>
-            <button class="filter__chip" data-filter="family">ファミリー</button>
-            <button class="filter__chip" data-filter="girls">女子会</button>
-            <button class="filter__chip" data-filter="group">グループ向け</button>
+        <div class="my-filter">
+          <p class="my-filter__title">条件を選んでください</p>
+
+          <div class="my-filter__group">
+            <span class="my-filter__label">🎯 目的</span>
+            <span class="my-chip" data-category="purpose" data-value="history">歴史・建築</span>
+            <span class="my-chip" data-category="purpose" data-value="view">絶景・展望</span>
+            <span class="my-chip" data-category="purpose" data-value="nature">自然・緑</span>
+            <span class="my-chip" data-category="purpose" data-value="food">グルメ・食事</span>
+            <span class="my-chip" data-category="purpose" data-value="sweets">スイーツ・カフェ</span>
+            <span class="my-chip" data-category="purpose" data-value="shopping">お買い物・お土産</span>
+            <span class="my-chip" data-category="purpose" data-value="hotel">ホテル満喫</span>
+            <span class="my-chip" data-category="purpose" data-value="play">子どもがしっかり遊ぶ</span>
+          </div>
+
+          <div class="my-filter__group">
+            <span class="my-filter__label">☀️ 天気</span>
+            <span class="my-chip" data-category="weather" data-value="rainy">雨でも安心</span>
+            <span class="my-chip" data-category="weather" data-value="sunny">晴れがおすすめ</span>
+            <span class="my-chip" data-category="weather" data-value="any">天気を選ばない</span>
+          </div>
+
+          <div class="my-filter__group">
+            <span class="my-filter__label">🚶 移動量</span>
+            <span class="my-chip" data-category="distance" data-value="min">最小（駅周辺）</span>
+            <span class="my-chip" data-category="distance" data-value="mid">中心部完結</span>
+            <span class="my-chip" data-category="distance" data-value="wide">少し広めもOK</span>
+          </div>
+
+          <div class="my-filter__actions">
+            <button type="button" class="my-filter__reset">条件をリセット</button>
+            <p class="my-filter__count">該当: 10件</p>
           </div>
         </div>
+      </section>
 
-        <!-- ▼ お店カード（1軒＝1枚）。下の <div class="spot"> ... </div> をコピーして増やします -->
+      <!-- ===== 10プラン早見表 ===== -->
+      <section class="section">
+        <h2 class="section__title">10プラン 早見表</h2>
+        <div class="spot plan-card" data-purpose="history" data-weather="any" data-distance="mid"><p class="spot__name"><a href="#plan1" style="text-decoration:none; color:#385648;">① 札幌レトロ建築コース</a></p><p>赤れんが・サッポロファクトリーで歴史と建築を堪能。和洋ホテルディナーで〆。</p></div>
+        <div class="spot plan-card" data-purpose="view shopping" data-weather="sunny" data-distance="mid"><p class="spot__name"><a href="#plan2" style="text-decoration:none; color:#385648;">② 絶景＆お買い物コース</a></p><p>JRタワー38階の絶景・大丸でお土産・北菓楼カフェ・京風個室ディナー。</p></div>
+        <div class="spot plan-card" data-purpose="play" data-weather="rainy" data-distance="mid"><p class="spot__name"><a href="#plan3" style="text-decoration:none; color:#385648;">③ 雨の日OK 完全屋内コース</a></p><p>朝から夜まで全行程屋内。サッポロファクトリーのプレイルームでたっぷり遊ぶ。</p></div>
+        <div class="spot plan-card" data-purpose="food" data-weather="sunny" data-distance="wide"><p class="spot__name"><a href="#plan4" style="text-decoration:none; color:#385648;">④ 海鮮・お寿司満喫コース</a></p><p>北海道の海鮮を昼夜たっぷり。2日目朝は二条市場で朝海鮮丼。</p></div>
+        <div class="spot plan-card" data-purpose="shopping" data-weather="rainy" data-distance="min"><p class="spot__name"><a href="#plan5" style="text-decoration:none; color:#385648;">⑤ 札幌駅完結（最小移動）コース</a></p><p>札幌駅から半径500m以内で完結。乳幼児の負担最小。</p></div>
+        <div class="spot plan-card" data-purpose="view hotel" data-weather="rainy" data-distance="mid"><p class="spot__name"><a href="#plan6" style="text-decoration:none; color:#385648;">⑥ ホテル満喫ハイクラスコース</a></p><p>35階SKY J ランチ・ホテルレストランディナーで上質な時間。</p></div>
+        <div class="spot plan-card" data-purpose="nature" data-weather="sunny" data-distance="mid"><p class="spot__name"><a href="#plan7" style="text-decoration:none; color:#385648;">⑦ 北大キャンパス＋カフェ緑コース</a></p><p>北大ポプラ並木でベビーカー散歩・無料博物館・図書館カフェ。</p></div>
+        <div class="spot plan-card" data-purpose="nature" data-weather="sunny" data-distance="wide"><p class="spot__name"><a href="#plan8" style="text-decoration:none; color:#385648;">⑧ 中島公園・芸術エリアコース</a></p><p>緑豊かな中島公園で散歩、児童会館で子ども遊び、すすきの近接で食事も◎。</p></div>
+        <div class="spot plan-card" data-purpose="sweets shopping" data-weather="any" data-distance="mid"><p class="spot__name"><a href="#plan9" style="text-decoration:none; color:#385648;">⑨ 札幌スイーツ・老舗カフェ巡りコース</a></p><p>北菓楼・六花亭・大丸地下で北海道スイーツを満喫。ベビーカーで巡る甘い1日。</p></div>
+        <div class="spot plan-card" data-purpose="food" data-weather="sunny" data-distance="wide"><p class="spot__name"><a href="#plan10" style="text-decoration:none; color:#385648;">⑩ 朝活・二条市場朝食コース</a></p><p>2日目早朝に二条市場で朝海鮮丼。新鮮な北海道の朝を味わう。</p></div>
+      </section>
+
+      <!-- ===== 3家族で動くときの段取りガイド ===== -->
+      <section class="section">
+        <h2 class="section__title">3家族で動くときの段取りガイド（10プラン共通）</h2>
+        <div class="spot"><p class="spot__name">📍 集合・解散場所を決めておく</p><p>札幌駅 南口「北海道四季彩館前」が広くて目印わかりやすく◎。各スポットでは入口や象徴的な場所で待ち合わせ。</p></div>
+        <div class="spot"><p class="spot__name">📱 LINEグループを出発前に作る</p><p>到着便・遅延・赤ちゃんの体調をリアルタイム共有。</p></div>
+        <div class="spot"><p class="spot__name">👶 ペースは「いちばん小さな子」に合わせる</p><p>移動時間は通常の1.5〜2倍、20〜30分の遅延OK。「ぐずったら別行動OK」のゆるい約束で気が楽。</p></div>
+        <div class="spot"><p class="spot__name">🍽️ 食事の予約は1家族が代表で取る</p><p>事前予約必須。「赤ちゃん◯名・ベビーカー◯台・ベビーチェア・離乳食持込」を予約時に確認。</p></div>
+        <div class="spot"><p class="spot__name">💤 1日目16:30〜18:00はホテル休憩（各家族別行動）</p><p>夕食レストランで再集合、LINEで集合時間を再確認。</p></div>
+        <div class="spot"><p class="spot__name">🎪 2日目12:30〜13:00 交流会会場へ移動</p><p>余裕を持って、ランチは早めに済ませる。</p></div>
+      </section>
+
+      <!-- ============================================================
+           プラン①〜⑩ 詳細
+           ============================================================ -->
+
+      <!-- ===== プラン① ===== -->
+      <section class="section" id="plan1">
+        <h2 class="section__title">🏛️ プラン① 札幌レトロ建築 ／ 1泊2日</h2>
+        <figure class="photo"><img src="images/course1.png" alt="赤れんが庁舎の前で家族散歩・札幌レトロ建築コース" /></figure>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 1日目（7/10金）</h3>
+        <p>11:00 札幌駅集合 → <strong>11:30 ランチ：北海道食市場 丸海屋 日本生命札幌ビル店</strong>（個室12〜18名）→ 13:30 赤れんが庁舎 → 15:00 サッポロファクトリー → 16:30 ホテル休憩 → <strong>18:00 ディナー：フォーシーズン</strong>（ホテルニューオータニイン）→ 20:00 解散</p>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 2日目（7/11土・交流会）</h3>
+        <p>8:00 ホテル朝食 → 9:30 集合 → 10:00 <strong>北菓楼 札幌本館</strong>（カフェ＆お土産）→ 11:30 大丸札幌で軽ランチ＆お土産 → 12:30 交流会会場へ</p>
+      </section>
+
+      <!-- ===== プラン② ===== -->
+      <section class="section" id="plan2">
+        <h2 class="section__title">🏙️ プラン② 絶景＆お買い物 ／ 1泊2日</h2>
+        <figure class="photo"><img src="images/course2.png" alt="高層階から見下ろす札幌の街並み・絶景＆お買い物コース" /></figure>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 1日目（7/10金）</h3>
+        <p>11:00 札幌駅 北口集合 → <strong>11:30 ランチ：海鮮食堂 海 KAI 札幌駅北口店</strong>（全席掘りごたつ）→ 13:30 JRタワー展望室T38 → 14:30 大丸札幌でお買い物 → 15:30 北菓楼 札幌本館でカフェ → 16:30 ホテル休憩 → <strong>18:00 ディナー：全席個室 じぶんどき 札幌駅前店</strong> → 20:00 解散</p>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 2日目（7/11土・交流会）</h3>
+        <p>8:00 ホテル朝食 → 9:30 札幌駅 北口集合 → 9:45 北海道大学キャンパス散策（ポプラ並木）→ <strong>11:30 ランチ：みのるダイニング 札幌ステラプレイス</strong>（ビュッフェ）→ 12:30 交流会会場へ</p>
+      </section>
+
+      <!-- ===== プラン③ ===== -->
+      <section class="section" id="plan3">
+        <h2 class="section__title">🌧️ プラン③ 雨の日OK 完全屋内 ／ 1泊2日</h2>
+        <figure class="photo"><img src="images/course3.png" alt="サッポロファクトリーの吹き抜けアトリウム・雨の日OK完全屋内コース" /></figure>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 1日目（7/10金）</h3>
+        <p>11:00 札幌駅集合 → <strong>11:30 ランチ：鼎泰豊（ディンタイフォン）札幌ステラプレイス店</strong>（個室予約／コース・最大8名、3家族の場合は2部屋分けて予約）→ 13:30〜16:00 サッポロファクトリー（屋内たっぷり）→ 16:30 ホテル休憩 → <strong>18:00 ディナー：フォーシーズン</strong> → 20:00 解散</p>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 2日目（7/11土・交流会）</h3>
+        <p>8:00 ホテル朝食 → 9:30 集合 → 10:00 赤れんが庁舎見学（屋内）→ 11:30 札幌駅エリアで軽ランチ → 12:30 交流会会場へ</p>
+      </section>
+
+      <!-- ===== プラン④ ===== -->
+      <section class="section" id="plan4">
+        <h2 class="section__title">🍣 プラン④ 海鮮・お寿司満喫 ／ 1泊2日</h2>
+        <figure class="photo"><img src="images/course4.png" alt="海鮮丼とお寿司の盛り合わせ・海鮮・お寿司満喫コース" /></figure>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 1日目（7/10金）</h3>
+        <p>11:00 札幌駅集合 → <strong>11:30 ランチ：北海道食市場 丸海屋 日本生命札幌ビル店</strong>（昼海鮮）→ 13:30 JRタワー展望室T38 → 14:30 大丸札幌でお買い物 → 16:30 ホテル休憩 → <strong>18:00 ディナー：刺身と焼物 ひゃくや 札幌駅北口店</strong>（全席個室・夜海鮮） → 20:00 解散</p>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 2日目（7/11土・交流会）</h3>
+        <p>8:00 ホテル朝食（軽め・後で食べるため）→ 9:30 集合 → 10:00 <strong>二条市場で散策＆朝海鮮丼</strong>（早めブランチ）→ 11:30 札幌駅へ移動 → 12:30 交流会会場へ</p>
+      </section>
+
+      <!-- ===== プラン⑤ ===== -->
+      <section class="section" id="plan5">
+        <h2 class="section__title">🚶 プラン⑤ 札幌駅完結（最小移動）／ 1泊2日</h2>
+        <figure class="photo"><img src="images/course5.png" alt="札幌駅前の家族風景・札幌駅完結コース" /></figure>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 1日目（7/10金）</h3>
+        <p>11:00 札幌駅集合 → <strong>11:30 ランチ：海鮮食堂 海 KAI 札幌駅北口店</strong> → 13:30 JRタワー展望室T38（駅直結）→ 14:30 大丸札幌でお買い物（駅直結）→ 16:30 ホテル休憩 → <strong>18:00 ディナー：フォーシーズン</strong>（地下鉄さっぽろ駅22番出口徒歩1分）→ 20:00 解散</p>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 2日目（7/11土・交流会）</h3>
+        <p>8:00 ホテル朝食 → 9:30 集合 → 10:00 <strong>北菓楼 札幌本館</strong>でカフェ → <strong>11:30 ランチ：みのるダイニング 札幌ステラプレイス</strong> → 12:30 交流会会場へ</p>
+      </section>
+
+      <!-- ===== プラン⑥ ===== -->
+      <section class="section" id="plan6">
+        <h2 class="section__title">🍽️ プラン⑥ ホテル満喫ハイクラス ／ 1泊2日</h2>
+        <figure class="photo"><img src="images/course6.png" alt="高層レストランで札幌街並みを見ながら食事・ホテル満喫ハイクラスコース" /></figure>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 1日目（7/10金）</h3>
+        <p>11:00 札幌駅集合 → <strong>12:00 ランチ：SKY J（JRタワーホテル日航札幌・35F）</strong>（パノラマビュッフェ・個室10名まで・幼児4歳以上600円）→ 13:30 JRタワー展望室T38（同建物）→ 14:30 北菓楼 札幌本館 → 16:30 ホテル休憩 → <strong>18:00 ディナー：フォーシーズン</strong> → 20:00 解散</p>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 2日目（7/11土・交流会）</h3>
+        <p>8:00 ホテル朝食ビュッフェ（ハイクラス満喫）→ 9:30 集合 → 10:00 大丸札幌でお買い物・お土産 → 11:30 札幌駅エリアで軽ランチ → 12:30 交流会会場へ</p>
+      </section>
+
+      <!-- ===== プラン⑦ ===== -->
+      <section class="section" id="plan7">
+        <h2 class="section__title">🌳 プラン⑦ 北大キャンパス＋カフェ緑 ／ 1泊2日</h2>
+        <figure class="photo"><img src="images/course7.png" alt="北海道大学キャンパスの並木道で家族散歩・北大＋カフェ緑コース" /></figure>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 1日目（7/10金）</h3>
+        <p>11:00 札幌駅 北口集合 → <strong>11:30 ランチ：みのるダイニング 札幌ステラプレイス</strong>（ビュッフェ・道産食材）→ 13:00 <strong>北海道大学キャンパス散策</strong>（ポプラ並木・クラーク像）→ 14:30 <strong>北海道大学総合博物館</strong>（無料・屋内・ベビーカーOK）→ 16:00 北菓楼 札幌本館でカフェ → 16:30 ホテル休憩 → <strong>18:00 ディナー：じぶんどき 札幌駅前店</strong> → 20:00 解散</p>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 2日目（7/11土・交流会）</h3>
+        <p>8:00 ホテル朝食 → 9:30 集合 → 10:00 大丸札幌でお買い物 → 11:30 札幌駅エリアで軽ランチ → 12:30 交流会会場へ</p>
+      </section>
+
+      <!-- ===== プラン⑧ ===== -->
+      <section class="section" id="plan8">
+        <h2 class="section__title">🎵 プラン⑧ 中島公園・芸術エリア ／ 1泊2日</h2>
+        <figure class="photo"><img src="images/course8.png" alt="中島公園の池と緑・中島公園・芸術エリアコース" /></figure>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 1日目（7/10金）</h3>
+        <p>11:00 札幌駅集合 → <strong>11:30 ランチ：丸海屋 日本生命札幌ビル店</strong>（海鮮個室）→ 13:30 地下鉄で中島公園駅へ → 13:45 <strong>中島公園</strong>でベビーカー散策・<strong>中島児童会館</strong>（日本最古の公立児童会館）→ 15:30 すすきの方面へ移動 → 16:30 ホテル休憩 → <strong>18:00 ディナー：フォーシーズン</strong> → 20:00 解散</p>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 2日目（7/11土・交流会）</h3>
+        <p>8:00 ホテル朝食 → 9:30 集合 → 10:00 北菓楼 札幌本館でカフェ → 11:30 札幌駅エリアで軽ランチ → 12:30 交流会会場へ</p>
+      </section>
+
+      <!-- ===== プラン⑨ ===== -->
+      <section class="section" id="plan9">
+        <h2 class="section__title">🍰 プラン⑨ 札幌スイーツ・老舗カフェ巡り ／ 1泊2日</h2>
+        <figure class="photo"><img src="images/course9.png" alt="北海道の老舗カフェで家族スイーツタイム・札幌スイーツ・老舗カフェ巡りコース" /></figure>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 1日目（7/10金）</h3>
+        <p>11:00 札幌駅集合 → <strong>11:30 ランチ：北海道食市場 丸海屋 日本生命札幌ビル店</strong>（軽めの海鮮和食）→ 13:30 <strong>北菓楼 札幌本館</strong>でカフェ＆お土産（旧道立図書館の図書館風カフェ）→ 14:30 <strong>六花亭 札幌本店</strong>（喫茶室で名物スイーツ・マルセイバターサンド・ストロベリーチョコ）→ 16:00 大丸札幌 地下1階でスイーツお土産集約お買い物 → 16:30 ホテル休憩 → <strong>18:00 ディナー：フォーシーズン</strong>（ホテルニューオータニイン）→ 20:00 解散</p>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 2日目（7/11土・交流会）</h3>
+        <p>8:00 ホテル朝食 → 9:30 集合 → 10:00 JRタワー展望室T38で札幌絶景 → 11:30 札幌駅エリアで軽ランチ → 12:30 交流会会場へ</p>
+      </section>
+
+      <!-- ===== プラン⑩ ===== -->
+      <section class="section" id="plan10">
+        <h2 class="section__title">🌅 プラン⑩ 朝活・二条市場朝食 ／ 1泊2日</h2>
+        <figure class="photo"><img src="images/course10.png" alt="二条市場で朝海鮮丼を楽しむ家族・朝活コース" /></figure>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 1日目（7/10金）</h3>
+        <p>11:00 札幌駅集合 → <strong>11:30 ランチ：鼎泰豊（ディンタイフォン）札幌ステラプレイス店</strong> → 13:30 JRタワー展望室T38 → 15:00 サッポロファクトリー → 16:30 ホテル休憩（早めに就寝準備）→ <strong>18:00 ディナー：フォーシーズン</strong> → 20:00 解散</p>
+        <h3 style="color:#385648; border-bottom:3px solid #385648; padding-bottom:6px;">🗓️ 2日目（7/11土・交流会）</h3>
+        <p>7:00 各家族ホテル早めにスタート → 7:30 <strong>二条市場で朝海鮮丼</strong>（市場の活気を体感）→ 9:30 散策・お買い物 → 11:00 ホテル戻ってシャワー＆休憩 → 11:30 軽ランチ → 12:30 交流会会場へ</p>
+      </section>
+
+      <!-- ============================================================
+           番外編：なのぱぱさんおすすめスポット
+           ============================================================ -->
+      <section class="section" id="bonus" style="background:var(--guide-pink); margin-left:-24px; margin-right:-24px; padding-left:24px; padding-right:24px; border-radius:0;">
+        <h2 class="section__title" style="border-bottom-color:var(--accent); color:var(--accent);">🌟 番外編 ／ なのぱぱさんおすすめスポット</h2>
+        <p>10プランには入りきらなかった、地元札幌民の<strong>「なのぱぱさん」</strong>がおすすめする乳幼児ファミリー向け穴場スポット。札幌中心部から少し足を延ばして、北海道の自然と農業を体感してみませんか？</p>
+
         <div class="spot">
-          <p class="spot__name">お店・スポットの名前</p>
+          <p class="spot__name">🌾 さっぽろ さとらんど（札幌市農業体験交流施設）</p>
+          <p>
+            札幌中心部から車で約30分。<strong>入園無料</strong>の広大な農業体験施設で、乳幼児から小学生まで一日中遊べる札幌のファミリー御用達スポット。
+            広大な芝生・<strong>ヒツジ＆ヤギへのエサやり</strong>・野菜の収穫体験・バター手作り体験・SLバスでの園内周遊など、北海道らしい体験がぎゅっと詰まっています。
+          </p>
+          <p>
+            屋内には <strong>「食育×木育」がテーマのキッズコーナー</strong>（約50種500アイテムのおままごと・木の積み木）もあり、雨の日や暑い日でも安心。
+            さとらんどセンターには<strong>授乳室</strong>も完備されています。
+          </p>
 
-          <!-- ▼ タグ：当てはまるものだけ残し、当てはまらない行は消します。
-               使えるタグはこの4つだけ（新しい言葉は作らない）。複数つけてOK。 -->
-          <div class="tags">
-            <span class="tag tag--solo"   data-tag="solo">ひとりOK</span>
-            <span class="tag tag--family" data-tag="family">ファミリー</span>
-            <span class="tag tag--girls"  data-tag="girls">女子会</span>
-            <span class="tag tag--group"  data-tag="group">グループ向け</span>
+          <div style="background:var(--bg-white); border-left:4px solid var(--accent); border-radius:8px; padding:14px 18px; margin:18px 0;">
+            <p style="margin:0 0 6px; font-weight:700; color:var(--accent); font-size:0.85rem;">💬 なのぱぱさんからのひとこと</p>
+            <p style="margin:0; font-size:0.92rem; color:var(--ink);">
+              「ヒツジ＆ヤギにエサやりするうちの子の顔が忘れられないくらい大喜び！広い芝生でゴロンとしてピクニックも最高。入園無料なので、3家族で待ち合わせするのにもピッタリです。」
+            </p>
           </div>
 
           <dl class="spot__meta">
-            <dt>場所</dt><dd>札幌市〇〇区〇〇（最寄り駅など。番地まで書かなくてOK）</dd>
-            <dt>予算</dt><dd>1,000〜2,000円くらい</dd>
-            <dt>時間</dt><dd>11:00〜21:00（定休日：水曜）</dd>
+            <dt>場所</dt><dd>札幌市東区丘珠町584-2（札幌中心部から車で約30分／地下鉄東豊線「環状通東駅」からバスで約20分）</dd>
+            <dt>営業時間</dt><dd>概ね9:00〜18:00（夏期）／時期により異なる（公式サイトで要確認）</dd>
+            <dt>料金</dt><dd><strong>入園無料</strong>（体験プログラムは別途）</dd>
+            <dt>体験できること</dt><dd>動物ふれあい（ヒツジ・ヤギ）／野菜収穫体験／バター作り／SLバス周遊／芝生でピクニック</dd>
+            <dt>乳幼児設備</dt><dd>授乳室・屋内キッズコーナー（無料）・ベビーカー利用OK</dd>
           </dl>
-          <p class="spot__body">
-            このお店・スポットのおすすめポイントや、行ってみた感想を書きます。
+          <p style="margin:14px 0 0;">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E3%81%95%E3%81%A8%E3%82%89%E3%82%93%E3%81%A9+%E6%9C%AD%E5%B9%8C%E5%B8%82%E8%BE%B2%E6%A5%AD%E4%BD%93%E9%A8%93%E4%BA%A4%E6%B5%81%E6%96%BD%E8%A8%AD" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Mapsで開く<span style="font-size:12px; opacity:0.85;">↗</span></a>
           </p>
         </div>
 
-        <!-- ↑ この <div class="spot"> ... </div> をコピーすれば、お店を増やせます -->
+        <p style="font-size:0.82rem; color:var(--ink-soft); margin-top:14px;">※ さとらんどは札幌中心部から少し離れているため、レンタカーまたは現地でのタクシー利用が便利です。3家族合同なら、レンタカー2〜3台で移動するのもアリ。</p>
       </section>
 
-      <!-- ===== コツ・注意のボックス（必要なものだけ残す） ===== -->
+      <!-- ============================================================
+           店舗・スポット 詳細情報（フル装備）
+           ============================================================ -->
+      <section class="section">
+        <h2 class="section__title">📋 店舗・スポット 詳細情報</h2>
+        <p>各プランで紹介した店舗・スポットの詳細情報をまとめました。予約・お問い合わせの際にご活用ください。</p>
+
+        <!-- ランチ・カフェ -->
+        <h3>🍽️ ランチ・カフェ</h3>
+
+        <div class="spot">
+          <p class="spot__name">北海道食市場 丸海屋 日本生命札幌ビル店（プラン①④⑧⑨）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区北3条西4-1-1 日本生命札幌ビル1F（札幌駅 南口から徒歩5分／チ・カ・ホ直結）</dd>
+            <dt>営業時間</dt><dd>ランチ 11:00〜15:00（LO 14:30）</dd>
+            <dt>料理</dt><dd>北海道食材の海鮮・和食（居酒屋）</dd>
+            <dt>価格</dt><dd>ランチ 約1,500円</dd>
+            <dt>個室</dt><dd>4名用6室・<strong>12〜18名用2室</strong>（3家族合同に最適）</dd>
+            <dt>子連れ対応</dt><dd>お子様連れ歓迎／ベビーチェア・お子様メニュー・離乳食持込は予約時に要確認</dd>
+            <dt>予約</dt><dd>ネット予約 or 電話</dd>
+          </dl>
+          <p style="display:flex; flex-wrap:wrap; gap:10px;">
+            <a href="https://www.hotpepper.jp/strJ000678671/" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📅 ネット予約<span style="font-size:12px; opacity:0.85;">↗</span></a>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%8C%97%E6%B5%B7%E9%81%93%E9%A3%9F%E5%B8%82%E5%A0%B4+%E4%B8%B8%E6%B5%B7%E5%B1%8B+%E6%97%A5%E6%9C%AC%E7%94%9F%E5%91%BD%E6%9C%AD%E5%B9%8C%E3%83%93%E3%83%AB%E5%BA%97" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#fff; color:#385648; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px; border:1.5px solid #385648;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">海鮮食堂 海 KAI 札幌駅北口店（プラン②⑤⑨）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>JR札幌駅 北口 徒歩2分</dd>
+            <dt>営業時間</dt><dd>ランチ 11:30〜14:30 ／ ディナー 17:00〜23:00</dd>
+            <dt>料理</dt><dd>北海道海鮮・海鮮丼</dd>
+            <dt>個室</dt><dd>全席掘りごたつ／大小個室・<strong>最大54名対応</strong></dd>
+            <dt>子連れ対応</dt><dd>お子様連れOK／ベビーチェア・離乳食持込は予約時に要確認</dd>
+            <dt>予約</dt><dd>HotPepperネット予約</dd>
+          </dl>
+          <p style="display:flex; flex-wrap:wrap; gap:10px;">
+            <a href="https://www.hotpepper.jp/SA41/Y505/X501/dncLT0096/U031/" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📅 ネット予約<span style="font-size:12px; opacity:0.85;">↗</span></a>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E6%B5%B7%E9%AE%AE%E9%A3%9F%E5%A0%82+%E6%B5%B7+KAI+%E6%9C%AD%E5%B9%8C%E9%A7%85%E5%8C%97%E5%8F%A3%E5%BA%97" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#fff; color:#385648; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px; border:1.5px solid #385648;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">鼎泰豊（ディンタイフォン）札幌ステラプレイス店（プラン③⑩）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区北5条西2丁目 札幌ステラプレイス センター 6F</dd>
+            <dt>営業時間</dt><dd>11:00〜22:30（LO 21:00）</dd>
+            <dt>料理</dt><dd>台湾点心料理（小籠包・チャーハン・担々麺）／キッズメニューあり</dd>
+            <dt>個室</dt><dd>ネット予約はコースのみ・最大8名・2時間制（3家族は2部屋に分けて予約推奨）</dd>
+            <dt>子連れ対応</dt><dd>キッズメニューあり／ベビーカー入店・ベビーチェアは予約時に要確認</dd>
+            <dt>予約</dt><dd>ネット予約（コースのみ）or 電話 011-209-5274</dd>
+          </dl>
+          <p style="display:flex; flex-wrap:wrap; gap:10px;">
+            <a href="https://yoyaku.toreta.in/dintaifung-sapporo" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📅 ネット予約<span style="font-size:12px; opacity:0.85;">↗</span></a>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E9%BC%8E%E6%B3%B0%E8%B1%8A+%E6%9C%AD%E5%B9%8C%E3%82%B9%E3%83%86%E3%83%A9%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9%E5%BA%97" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#fff; color:#385648; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px; border:1.5px solid #385648;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">みのるダイニング 札幌ステラプレイス（プラン②⑤⑦）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌ステラプレイス センター 6F（JR札幌駅 南口直結）</dd>
+            <dt>料理</dt><dd>道産食材を使った和洋食ビュッフェ（北広島「くるるの杜」の野菜が中心）</dd>
+            <dt>子連れ対応</dt><dd>子連れに評判◎／ベビーカー入店は店内が広くないため要確認</dd>
+            <dt>予約</dt><dd>ランチタイムは予約不可（<strong>11:30開店直後の入店推奨</strong>）</dd>
+            <dt>同フロア</dt><dd>センター6階大丸側に<strong>ベビーケアルーム</strong>（授乳室2部屋・調乳給湯・オムツ替え）</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E3%81%BF%E3%81%AE%E3%82%8B%E3%83%80%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0+%E6%9C%AD%E5%B9%8C%E3%82%B9%E3%83%86%E3%83%A9%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">SKY J（JRタワーホテル日航札幌・35F）（プラン⑥）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区北5条西2丁目5 JRタワーホテル日航札幌 35F（JR札幌駅直結）</dd>
+            <dt>料理</dt><dd>パノラマビュッフェ（35階からの絶景）</dd>
+            <dt>価格</dt><dd>大人 3,200円 / 小学生 1,600円 / 幼児（4歳以上）600円 / <strong>3歳以下は無料の可能性</strong>（要確認）</dd>
+            <dt>個室</dt><dd>北西角に個室あり（最大10名／個室利用料1人800円）</dd>
+            <dt>子連れ対応</dt><dd>ファミリー利用OK・ベビーカー入店要確認</dd>
+            <dt>予約</dt><dd>完全予約制（011-251-2222）</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=SKY+J+JR%E3%82%BF%E3%83%AF%E3%83%BC%E3%83%9B%E3%83%86%E3%83%AB%E6%97%A5%E8%88%AA%E6%9C%AD%E5%B9%8C" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">北菓楼 札幌本館（プラン①②⑤⑥⑦⑧⑨）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区北1条西5丁目1-2（赤れんが庁舎から徒歩約2分）</dd>
+            <dt>営業時間</dt><dd>1F ショップ 10:00〜18:00 ／ 2F カフェ 11:00〜16:00（LO 14:00／<strong>火曜定休</strong>）</dd>
+            <dt>料理</dt><dd>北海道銘菓・カフェメニュー（シュークリーム・バウムクーヘン・開拓おかき）</dd>
+            <dt>特徴</dt><dd>1926年築の旧道立図書館をリノベ／2階吹き抜けカフェ・約6,000冊の本棚</dd>
+            <dt>子連れ対応</dt><dd>ベビーカー入店は予約時に要確認</dd>
+            <dt>予約</dt><dd>カフェ予約は要事前確認（バウムクーヘン焼印は事前予約可）</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%8C%97%E8%8F%93%E6%A5%BC+%E6%9C%AD%E5%B9%8C%E6%9C%AC%E9%A4%A8" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <!-- ディナー -->
+        <h3>🍷 ディナー</h3>
+
+        <div class="spot">
+          <p class="spot__name">フォーシーズン（ホテルニューオータニイン札幌）（プラン①③⑤⑥⑧⑨⑩）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区北二条西1-1 ホテルニューオータニイン札幌内（地下鉄さっぽろ駅22番出口 徒歩1分／JR札幌駅 徒歩8分）</dd>
+            <dt>料理</dt><dd>和食・洋食のディナーコース（季節ごとにメニュー変更）</dd>
+            <dt>個室</dt><dd><strong>テーブル個室2室・座敷個室2室（各4〜30名様）</strong>3家族12名なら1部屋に余裕</dd>
+            <dt>子連れ対応</dt><dd>お子様メニューあり・ベビーカー入店OK・バリアフリー対応（最新は予約時に要確認）</dd>
+            <dt>予約</dt><dd>楽天ぐるなび / TableCheck / ホテル直接（3日前まで）</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%AA%E3%83%BC%E3%82%BF%E3%83%8B%E3%82%A4%E3%83%B3%E6%9C%AD%E5%B9%8C+%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">全席個室 じぶんどき 札幌駅前店（プラン②⑦）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌駅前エリア（詳細は予約時に確認）</dd>
+            <dt>料理</dt><dd>京風創作和食</dd>
+            <dt>個室</dt><dd><strong>全席完全個室</strong>（70席程度・3家族12名にも対応可）</dd>
+            <dt>子連れ対応</dt><dd>ベビーチェア・お子様メニュー・離乳食持込は予約時に要確認</dd>
+            <dt>予約</dt><dd>HotPepperネット予約</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E3%81%98%E3%81%B6%E3%82%93%E3%81%A9%E3%81%8D+%E6%9C%AD%E5%B9%8C%E9%A7%85%E5%89%8D%E5%BA%97" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">刺身と焼物 ひゃくや 札幌駅北口店（プラン④）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市北区北9条西3丁目 ノルテプラザ1F（JR札幌駅北口12番出口から徒歩2分）</dd>
+            <dt>営業時間</dt><dd>17:00〜23:30（LO 22:45 / ドリンクLO 23:00）／<strong>ディナーのみ</strong></dd>
+            <dt>休業日</dt><dd>12/31〜1/2のみ</dd>
+            <dt>料理</dt><dd>海鮮（刺身・焼物）／お子様向けソフトドリンク2時間500円・<strong>小学生以下無料</strong></dd>
+            <dt>個室</dt><dd>掘りごたつ個室 2〜50名・<strong>扉・壁つきの完全個室</strong></dd>
+            <dt>子連れ対応</dt><dd>小学生以下無料／ベビーチェア・離乳食持込は予約時に要確認</dd>
+            <dt>予約</dt><dd>HotPepperネット予約</dd>
+          </dl>
+          <p style="display:flex; flex-wrap:wrap; gap:10px;">
+            <a href="https://www.hotpepper.jp/strJ001146377/" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📅 ネット予約<span style="font-size:12px; opacity:0.85;">↗</span></a>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%88%BA%E8%BA%AB%E3%81%A8%E7%84%BC%E7%89%A9+%E3%81%B2%E3%82%83%E3%81%8F%E3%82%84+%E6%9C%AD%E5%B9%8C%E9%A7%85%E5%8C%97%E5%8F%A3%E5%BA%97" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#fff; color:#385648; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px; border:1.5px solid #385648;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">六花亭 札幌本店（プラン⑨）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区北4条西6丁目3-3（JR札幌駅 南口から徒歩約3分）</dd>
+            <dt>営業時間</dt><dd>1F ショップ 9:30〜19:00 ／ 2F 喫茶室 10:30〜17:30（LO 17:00）など（フロアごとに異なる）</dd>
+            <dt>料理</dt><dd>北海道銘菓・喫茶メニュー（マルセイバターサンド・ストロベリーチョコ・サクサクパイなど）</dd>
+            <dt>特徴</dt><dd>北海道を代表する老舗菓子店の本店。2階喫茶室は来店者限定の特別メニューあり。10階「ふきのとうホール」など多目的フロア</dd>
+            <dt>子連れ対応</dt><dd>ベビーカー入店・ベビーチェアは予約時に要確認</dd>
+            <dt>予約</dt><dd>喫茶室は基本予約不可（混雑時は時間ずらし推奨）</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%85%AD%E8%8A%B1%E4%BA%AD+%E6%9C%AD%E5%B9%8C%E6%9C%AC%E5%BA%97" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <!-- 観光・お買い物スポット -->
+        <h3>🏛️ 観光・お買い物スポット</h3>
+
+        <div class="spot">
+          <p class="spot__name">北海道庁旧本庁舎（赤れんが庁舎）（プラン①③）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区北3条西6丁目（JR札幌駅 南口から徒歩約7分）</dd>
+            <dt>開館時間</dt><dd>8:45〜21:00（最終入館 20:30）／年末年始（12/29〜1/3）休館</dd>
+            <dt>入館料</dt><dd>一般 300円 / 大学・高校生 200円 / <strong>中学生以下 無料</strong></dd>
+            <dt>特徴</dt><dd>1888年築・2025年7月リニューアル／アイヌ文化展示・八角塔特別観覧／ユニバーサルデザイン</dd>
+            <dt>乳幼児設備</dt><dd>授乳室・多目的トイレ・スロープ・エレベーター完備</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%8C%97%E6%B5%B7%E9%81%93%E5%BA%81%E6%97%A7%E6%9C%AC%E5%BA%81%E8%88%8E+%E8%B5%A4%E3%82%8C%E3%82%93%E3%81%8C%E5%BA%81%E8%88%8E" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">サッポロファクトリー（プラン①③⑩）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区北2条東4丁目（JR札幌駅から徒歩約15分／タクシー約5分）</dd>
+            <dt>営業時間</dt><dd>店舗により異なる（公式サイトで要確認）</dd>
+            <dt>特徴</dt><dd>北海道開拓使麦酒醸造所跡地のレンガ造り複合施設・<strong>全館屋内連結</strong></dd>
+            <dt>乳幼児設備</dt><dd>3条館2階に<strong>ベビー休憩室・無料プレイルーム</strong>／コインリターン式ベビーカー貸出</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E3%82%B5%E3%83%83%E3%83%9D%E3%83%AD%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">JRタワー展望室T38（プラン②④⑤⑥⑨⑩）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>JR札幌駅直結（JRタワー イースト6階で受付、38階が展望室）</dd>
+            <dt>営業時間</dt><dd>10:00〜22:00（最終入場 21:30）</dd>
+            <dt>料金</dt><dd>大人 720円 / 中・高校生 500円 / <strong>小学生・幼児 300円</strong></dd>
+            <dt>特徴</dt><dd>地上160m・360度パノラマ・遠くの山並みまで一望</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=JR%E3%82%BF%E3%83%AF%E3%83%BC%E5%B1%95%E6%9C%9B%E5%AE%A4T38" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">大丸札幌（プラン①②④⑤⑥⑦⑨）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区北5条西4-7（JR札幌駅 南口直結）</dd>
+            <dt>営業時間</dt><dd>10:00〜20:00（フロアにより異なる）</dd>
+            <dt>特徴</dt><dd>地下1階で北海道のお土産集約（白い恋人・六花亭・ロイズ・海産物）</dd>
+            <dt>乳幼児設備</dt><dd>4階にベビー休憩室・授乳室・オムツ替え台</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%A4%A7%E4%B8%B8%E6%9C%AD%E5%B9%8C" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">北海道大学キャンパス・北大博物館（プラン②⑦）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市北区北8条西5丁目（JR札幌駅 北口から徒歩5分）</dd>
+            <dt>営業時間</dt><dd>キャンパスは常時／北大総合博物館 10:00〜17:00（金曜のみ〜21:00）／月曜休館</dd>
+            <dt>料金</dt><dd><strong>キャンパス・博物館とも入場無料</strong></dd>
+            <dt>特徴</dt><dd>ポプラ並木・白楊並木・クラーク像・中央ローン／北大博物館は化石・標本展示</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E5%8C%97%E6%B5%B7%E9%81%93%E5%A4%A7%E5%AD%A6+%E6%9C%AD%E5%B9%8C%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">中島公園・中島児童会館（プラン⑧）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区中島公園（地下鉄南北線「中島公園駅」徒歩すぐ）</dd>
+            <dt>営業時間</dt><dd>公園は常時／中島児童会館 9:00〜17:00</dd>
+            <dt>料金</dt><dd>無料</dd>
+            <dt>特徴</dt><dd>緑豊かな都市公園・池あり・舗装路でベビーカー◎／日本最古の公立児童会館</dd>
+            <dt>周辺</dt><dd>札幌コンサートホールKitara、北海道立文学館、人形劇場こぐま座</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E4%B8%AD%E5%B3%B6%E5%85%AC%E5%9C%92+%E6%9C%AD%E5%B9%8C" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+
+        <div class="spot">
+          <p class="spot__name">二条市場（プラン④⑩）</p>
+          <dl class="spot__meta">
+            <dt>住所</dt><dd>札幌市中央区南3条東1丁目（地下鉄大通駅・バスセンター前駅・すすきの駅から徒歩10分以内）</dd>
+            <dt>営業時間</dt><dd>市場全体 7:00〜18:00 ／ 飲食 6:00〜21:00（店舗により異なる）／<strong>海鮮丼店は朝8時前OPEN〜14時頃まで</strong></dd>
+            <dt>特徴</dt><dd>約128年の歴史・約60店舗・新鮮な海産物と海鮮丼で有名</dd>
+            <dt>子連れ対応</dt><dd>市場のため通路がやや狭い・ベビーカー利用は要現地確認</dd>
+          </dl>
+          <p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=%E4%BA%8C%E6%9D%A1%E5%B8%82%E5%A0%B4+%E6%9C%AD%E5%B9%8C" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:11px 20px; background:#385648; color:#fff; text-decoration:none; border-radius:999px; font-weight:700; font-size:14px;">📍 Google Maps<span style="font-size:12px; opacity:0.85;">↗</span></a>
+          </p>
+        </div>
+      </section>
+
+      <!-- ===== コツ・注意 ===== -->
       <div class="tip">
-        <p class="tip__title">&#128161; ちょっとしたコツ</p>
-        知っておくと得する情報や、おすすめの楽しみ方をここに書きます。
+        <p class="tip__title">&#128161; 3家族合同・1泊2日のコツ</p>
+        7月の札幌は道外より涼しく、朝晩は20℃を下回ることも。乳幼児は体温調節が苦手なので、長袖の羽織りもの・薄手のブランケットを備えておくと安心。
+        授乳室は札幌駅構内（パセオ地下1階）・ステラプレイス6階・大丸4階・赤れんが庁舎・サッポロファクトリー3条館2階と、中心部は充実。
+        <strong>2日目は交流会本番なので、午前中は無理せず</strong>、移動・ランチを早めに済ませて余裕を持ちましょう。
       </div>
 
       <div class="warn">
-        <p class="warn__title">&#9888; 注意してほしいこと</p>
-        予約が必要・混雑しやすい時間帯など、気をつけてほしいことをここに書きます。
+        <p class="warn__title">&#9888; 道外から来られる方に注意してほしいこと</p>
+        フライト・移動の疲れで、初日は大人も子どもも想像以上に消耗します。「全部回らなくてもOK」「途中離脱もアリ」と決めておくと、3家族のお互いに気が楽。
+        飲食店の予約時は「家族構成」「個室希望」「ベビーチェアあり」「ベビーカーで入店OK」「離乳食の持ち込み可」を必ず確認。
+        スポットの営業時間・料金・店舗の状況は変わることがあるので、お出かけ前に必ず公式サイトで最新情報をご確認ください。
       </div>
 
-      <!-- ===== 担当者プロフィール：このページを書いた人 ===== -->
-      <!-- ▼ お名前・ひとこと・リベシティのプロフィールURLを入れてください -->
+      <!-- ===== 担当者プロフィール ===== -->
       <aside class="author">
-        <!-- 顔写真を入れる場合は、下の <div> を消して
-             <img class="author__avatar" src="images/me.jpg" alt="" /> に置きかえてください -->
-        <div class="author__avatar">&#128075;</div>
+        <img class="author__avatar" src="images/me.jpg" alt="やすもち（札幌在住、一児の父）" />
         <div class="author__body">
           <p class="author__label">このページを書いた人</p>
-          <p class="author__name">あなたのお名前（ニックネームでOK）</p>
-          <p class="author__bio">
-            自己紹介をひとこと。北海道との関わりや、ふだんの活動など。
-          </p>
-          <a class="author__link" href="リベシティのプロフィールURL" target="_blank" rel="noopener">
-            リベシティのプロフィールを見る &#8594;
-          </a>
+          <p class="author__name">やすもち</p>
+          <p class="author__bio">札幌在住、一児の父。お休みの日は家族で公園散歩しています。</p>
+          <a class="author__link" href="https://libecity.com/user_profile/U3WQpbLkGEWoklxVk2Eji5hVZrP2" target="_blank" rel="noopener">リベシティのプロフィールを見る &#8594;</a>
         </div>
       </aside>
 
@@ -171,31 +570,71 @@
     <p><a href="https://hokkaido-trip-guide.pages.dev">&#8592; 旅のしおりトップにもどる</a></p>
   </footer>
 
-  <!-- ===== しぼりこみフィルターの動き：このまま触らなくてOK ===== -->
+  <script src="https://floating-nav-assets.tsapp.workers.dev/floating-nav.js"></script>
+
+  <!-- ===== プランしぼり込みフィルター ===== -->
   <script>
     (function () {
-      var chips = document.querySelectorAll('.filter__chip');
-      var spots = document.querySelectorAll('.spot');
+      var chips = document.querySelectorAll('.my-chip');
+      var cards = document.querySelectorAll('.plan-card');
+      var countEl = document.querySelector('.my-filter__count');
+      var resetBtn = document.querySelector('.my-filter__reset');
+      if (!chips.length || !cards.length) return;
+
+      function applyFilter() {
+        // カテゴリーごとに選択値を集める
+        var activeByCategory = {};
+        chips.forEach(function (chip) {
+          if (chip.classList.contains('my-chip--active')) {
+            var cat = chip.getAttribute('data-category');
+            var val = chip.getAttribute('data-value');
+            if (!activeByCategory[cat]) activeByCategory[cat] = [];
+            activeByCategory[cat].push(val);
+          }
+        });
+
+        // 各カードがすべてのカテゴリ条件にマッチするかチェック
+        var visibleCount = 0;
+        cards.forEach(function (card) {
+          var matches = true;
+          for (var cat in activeByCategory) {
+            var cardValues = (card.getAttribute('data-' + cat) || '').split(/\s+/);
+            var anyMatch = false;
+            for (var i = 0; i < activeByCategory[cat].length; i++) {
+              if (cardValues.indexOf(activeByCategory[cat][i]) !== -1) {
+                anyMatch = true;
+                break;
+              }
+            }
+            if (!anyMatch) {
+              matches = false;
+              break;
+            }
+          }
+          card.classList.toggle('plan-card--hidden', !matches);
+          if (matches) visibleCount++;
+        });
+
+        if (countEl) {
+          countEl.textContent = '該当: ' + visibleCount + '件';
+        }
+      }
+
       chips.forEach(function (chip) {
         chip.addEventListener('click', function () {
-          chips.forEach(function (c) { c.classList.remove('filter__chip--active'); });
-          chip.classList.add('filter__chip--active');
-          var f = chip.getAttribute('data-filter');
-          spots.forEach(function (spot) {
-            var tags = Array.prototype.map.call(
-              spot.querySelectorAll('.tag'),
-              function (t) { return t.getAttribute('data-tag'); }
-            );
-            var show = (f === 'all') || (tags.indexOf(f) !== -1);
-            spot.classList.toggle('spot--hidden', !show);
-          });
+          chip.classList.toggle('my-chip--active');
+          applyFilter();
         });
       });
+
+      if (resetBtn) {
+        resetBtn.addEventListener('click', function () {
+          chips.forEach(function (c) { c.classList.remove('my-chip--active'); });
+          applyFilter();
+        });
+      }
     })();
   </script>
-
-  <!-- ===== 旅のしおり 共通ナビ（ページ右下に表示）：この行は消さないでください ===== -->
-  <script src="https://floating-nav-assets.tsapp.workers.dev/floating-nav.js"></script>
 
 </body>
 </html>
