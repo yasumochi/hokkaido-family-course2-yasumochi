@@ -103,13 +103,27 @@ A: やすもちのリベシティDM、または LINE までお願いします。
 
 ---
 
-## 🌟 おすすめポイント（POINT 5つ）
+## 🌟 おすすめポイント（POINT 5つ・画像付き）
 
-1. **札幌の歴史を象徴する2大建築**（赤れんが庁舎・サッポロファクトリー）を1日で巡れる
-2. **2025年7月リニューアル直後**の赤れんが庁舎で最新の札幌を体験
-3. **中学生以下入館無料**で家族3組10〜12名でも経済的
-4. **全観光スポット屋内＋授乳室完備**で雨でも安心
-5. **ホテルレストラン個室（4〜30名対応）**で3家族12名がゆったり食事可能
+### POINT 1：札幌の歴史を象徴する2大建築を1日で巡れる
+![POINT1](https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course1.png)
+**赤れんが庁舎・サッポロファクトリー**を1日で巡れる充実コース。
+
+### POINT 2：2025年7月リニューアル直後の赤れんが庁舎
+![POINT2](https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course1.png)
+1888年築の旧道庁が**2025年7月にリニューアル**したばかり。最新の札幌を体験。
+
+### POINT 3：中学生以下入館無料で家族3組10〜12名でも経済的
+![POINT3](https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course5.png)
+**赤れんが庁舎は中学生以下無料**。3家族10〜12名でも入館料を抑えられて◎
+
+### POINT 4：全観光スポット屋内＋授乳室完備で雨でも安心
+![POINT4](https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course3.png)
+**サッポロファクトリーの屋内アトリウム**や赤れんがの授乳室など、雨でも安心。
+
+### POINT 5：ホテルレストラン個室で3家族12名がゆったり
+![POINT5](https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course6.png)
+**フォーシーズン（ホテルニューオータニイン）**の個室（4〜30名対応）で3家族12名がゆったり食事できる。
 
 ---
 
