@@ -395,6 +395,66 @@ window.YASUMOCHI_SPOTS = [
   },
 
   {
+    key: "四季花まる",
+    name: "四季 花まる すすきの店",
+    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course4.png",
+    headline: "北海道の人気回転寿司！すすきの店は個室の小上がりがあり、授乳しやすく乳幼児連れも安心",
+    points: [
+      "「根室花まる」の姉妹店で、ネタは本格派の回転寿司",
+      "すすきの店は個室の小上がり席あり、授乳ケープでの授乳もしやすい",
+      "全店舗ベビーカー入店OK・店内トイレにおむつ交換台"
+    ],
+    baby: { nursing: "個室の小上がりで対応可", diaper: "あり（店内トイレ）", stroller: "入店OK" },
+    voice: "小上がりの個室は赤ちゃんを寝かせられて本当にラク。回転寿司なので子どもも喜びます。18時入店なら混雑前で安心。",
+    budget: "ディナー 1人2,000〜3,500円程度",
+    address: "札幌市中央区南4条西2丁目2-4 レコルトサッポロ2F（地下鉄豊水すすきの駅すぐ）",
+    tel: "011-520-0870（ネット予約 or 電話）",
+    hours: "11:00〜22:00頃（要確認）",
+    official: "https://www.sushi-hanamaru.com/store/details/s07.html",
+    map: "https://www.google.com/maps/search/?api=1&query=四季+花まる+すすきの店"
+  },
+
+  {
+    key: "狸小路",
+    name: "狸小路商店街",
+    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course5.png",
+    headline: "全長約900mのアーケード商店街！全天候型で雨でもベビーカーOK、お土産・食べ歩きも",
+    points: [
+      "アーケードで雨でも濡れず、ベビーカーでゆっくり歩ける",
+      "お土産店・ドラッグストア・飲食店が集まり、買い忘れ調達に便利",
+      "札幌の下町情緒も味わえる、地元感のあるスポット"
+    ],
+    baby: { nursing: "周辺商業施設利用", diaper: "周辺商業施設利用", stroller: "アーケードで歩きやすい" },
+    voice: "アーケードだから天気を気にせず歩けます。お土産の買い忘れもここで調達。子どものおやつ探しも楽しいですよ。",
+    budget: "お買い物・食べ歩き",
+    address: "札幌市中央区南2・3条西1〜7丁目（大通駅・すすきの駅すぐ）",
+    tel: "－",
+    hours: "店舗により異なる",
+    official: "https://www.tanukikoji.or.jp/",
+    map: "https://www.google.com/maps/search/?api=1&query=狸小路商店街"
+  },
+
+  {
+    key: "札幌三越",
+    name: "札幌三越",
+    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course5.png",
+    headline: "大通駅直結の老舗百貨店！地下food売り場で北海道銘菓、ベビー休憩室も完備",
+    points: [
+      "地下food売り場で北海道のお土産・スイーツが揃う",
+      "大通駅直結で雨でもベビーカー移動がラク",
+      "ベビー休憩室・授乳室あり、買い物の合間に休憩できる"
+    ],
+    baby: { nursing: "あり（ベビー休憩室）", diaper: "あり", stroller: "入店OK・貸出あり" },
+    voice: "大通駅直結なので雨でも安心。大丸とはまた違う品揃えで、お土産選びの選択肢が広がります。",
+    budget: "お土産・軽食",
+    address: "札幌市中央区南1条西3丁目8（地下鉄大通駅直結）",
+    tel: "011-271-3311",
+    hours: "10:00〜19:00（フロアにより異なる）",
+    official: "https://www.mitsukoshi.mistore.jp/sapporo.html",
+    map: "https://www.google.com/maps/search/?api=1&query=札幌三越"
+  },
+
+  {
     key: "さとらんど",
     name: "さっぽろ さとらんど（札幌市農業体験交流施設）",
     image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/main.png",
