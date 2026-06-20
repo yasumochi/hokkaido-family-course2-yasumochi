@@ -9,7 +9,7 @@
 //   const spot = window.YASUMOCHI_SPOTS.find(s => stepName.includes(s.key));
 //   spot.name / spot.image / spot.headline / spot.points / ...
 //
-// img のベースURL: https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/
+// img のベースパス: /images/yasumochi/
 // =====================================================
 
 window.YASUMOCHI_SPOTS = [
@@ -17,7 +17,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "新千歳空港",
     name: "新千歳空港",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/sinnchitoseeki.png",
+    image: "/images/yasumochi/airport.png",
     headline: "新千歳空港から札幌へは「JR快速エアポート」が最速！未就学児は運賃無料、ベビーカーもそのまま乗れて乳幼児連れも安心",
     points: [
       "札幌へは「JR快速エアポート」が一番ラク。到着ロビーから地下のJR駅まで徒歩約5分、札幌駅まで約40分・約15分間隔",
@@ -37,7 +37,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "札幌駅",
     name: "JR札幌駅",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/ekimaehiroba.png",
+    image: "/images/yasumochi/sapporo-station.png",
     headline: "3家族の集合は南口「北海道四季彩館前」が分かりやすい！駅直結でベビーカー移動もラクラク",
     points: [
       "南口「北海道四季彩館前」は広くて目印になり、3家族の集合に最適",
@@ -57,7 +57,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "丸海屋",
     name: "北海道食市場 丸海屋 日本生命札幌ビル店",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/maruumi.png",
+    image: "/images/yasumochi/maruumi.png",
     headline: "チ・カ・ホ直結！12〜18名の個室で3家族合同ランチ。北海道の海鮮を子連れでもゆったり",
     points: [
       "12〜18名用の個室が2室あり、3家族10〜12名で1部屋にゆったり",
@@ -77,7 +77,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "赤れんが",
     name: "北海道庁旧本庁舎（赤れんが庁舎）",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course1.png",
+    image: "/images/yasumochi/akarenga.png",
     headline: "2025年7月リニューアル！中学生以下無料で、八角塔から札幌を一望。ベビーカーでも見学できる歴史建築",
     points: [
       "1888年築・2025年7月リニューアル直後＝最新の札幌を体験できる",
@@ -97,7 +97,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "サッポロファクトリー",
     name: "サッポロファクトリー",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course3.png",
+    image: "/images/yasumochi/factory.png",
     headline: "全館屋内でつながる複合施設！3条館2階の無料プレイルームで子どもがたっぷり遊べる",
     points: [
       "全館が屋内連結で、雨でも暑くてもベビーカーで快適に回れる",
@@ -117,7 +117,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "フォーシーズン",
     name: "レストラン フォーシーズン（ホテルニューオータニイン札幌）",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course6.png",
+    image: "/images/yasumochi/hotel-dinner.png",
     headline: "地下鉄さっぽろ駅徒歩1分！個室4〜30名対応で3家族12名がゆったり。お子様メニューありの和洋コース",
     points: [
       "テーブル個室・座敷個室があり、3家族12名なら1部屋に余裕",
@@ -137,7 +137,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "北菓楼",
     name: "北菓楼 札幌本館",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/kitakarou.png",
+    image: "/images/yasumochi/kitakaro.png",
     headline: "1926年築の旧道立図書館をリノベ！6,000冊の本棚カフェで北海道銘菓スイーツを",
     points: [
       "天井まで届く本棚に約6,000冊。吹き抜けの開放的な図書館風カフェ",
@@ -157,7 +157,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "大丸",
     name: "大丸札幌",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course5.png",
+    image: "/images/yasumochi/shopping.png",
     headline: "JR札幌駅直結！地下1階で北海道のお土産が一気に揃う。4階にベビー休憩室あり",
     points: [
       "地下1階に白い恋人・六花亭・ロイズなど北海道銘菓が集約",
@@ -177,7 +177,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "海KAI",
     name: "海鮮食堂 海 KAI 札幌駅北口店",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course4.png",
+    image: "/images/yasumochi/kaisen.png",
     headline: "全席掘りごたつで赤ちゃんを横に寝かせOK！最大54名対応、北海道海鮮をお手頃に",
     points: [
       "全席掘りごたつで、赤ちゃんを寝かせながら食事できる",
@@ -197,7 +197,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "JRタワー",
     name: "JRタワー展望室T38",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course2.png",
+    image: "/images/yasumochi/jrtower.png",
     headline: "地上160m・38階から札幌を360度一望！幼児300円、駅直結で家族の記念写真スポット",
     points: [
       "38階・地上160mから札幌の街並み・遠くの山々まで一望",
@@ -217,7 +217,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "じぶんどき",
     name: "全席個室 じぶんどき 札幌駅前店",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course6.png",
+    image: "/images/yasumochi/hotel-dinner.png",
     headline: "全席完全個室の京風和食！赤ちゃんの泣き声を気にせず3家族で一部屋に",
     points: [
       "全席完全個室で、赤ちゃんが泣いても周りを気にせず食事できる",
@@ -237,7 +237,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "中島公園",
     name: "中島公園・中島児童会館",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course8.png",
+    image: "/images/yasumochi/nakajima.png",
     headline: "緑豊かな都市公園でベビーカー散策！日本最古の公立児童会館で子どもも遊べる",
     points: [
       "池や緑が美しく、舗装路でベビーカー散策・芝生でピクニックも",
@@ -257,7 +257,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "北大",
     name: "北海道大学キャンパス・北大総合博物館",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course7.png",
+    image: "/images/yasumochi/hokudai.png",
     headline: "札幌駅北口徒歩5分！ポプラ並木をベビーカー散歩、無料の博物館は雨でも安心",
     points: [
       "ポプラ並木・クラーク像など、整備された道でベビーカー散歩◎",
@@ -277,7 +277,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "二条市場",
     name: "二条市場",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course10.png",
+    image: "/images/yasumochi/nijoichiba.png",
     headline: "約128年の歴史を持つ市場で朝海鮮丼！「これぞ北海道」の活気を家族で体感",
     points: [
       "海鮮丼店は朝8時前から営業、新鮮な北海道の朝を味わえる",
@@ -297,7 +297,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "ディンタイフォン",
     name: "鼎泰豊（ディンタイフォン）札幌ステラプレイス店",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course3.png",
+    image: "/images/yasumochi/factory.png",
     headline: "世界的に有名な台湾点心の名店！キッズメニューあり・ネット予約OKで子連れに最適",
     points: [
       "小籠包・チャーハン・担々麺など取り分けやすいメニューが豊富",
@@ -317,7 +317,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "みのるダイニング",
     name: "みのるダイニング 札幌ステラプレイス",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course5.png",
+    image: "/images/yasumochi/shopping.png",
     headline: "道産食材の和洋食ビュッフェ！少しずつ取り分けられて、離乳食卒業期〜の機嫌取りに最強",
     points: [
       "北広島「くるるの杜」の野菜など道産食材のビュッフェ",
@@ -337,7 +337,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "SKY J",
     name: "SKY J（JRタワーホテル日航札幌・35F）",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course6.png",
+    image: "/images/yasumochi/hotel-dinner.png",
     headline: "35階の絶景パノラマビュッフェ！個室もあり、3家族の特別な日の演出に",
     points: [
       "35階からの絶景を眺めながらのパノラマビュッフェ",
@@ -357,7 +357,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "ひゃくや",
     name: "刺身と焼物 ひゃくや 札幌駅北口店",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course4.png",
+    image: "/images/yasumochi/kaisen.png",
     headline: "全席個室の海鮮居酒屋！小学生以下無料、掘りごたつ完全個室で3家族夜の海鮮を満喫",
     points: [
       "掘りごたつの完全個室（扉・壁つき）で3家族でもゆったり",
@@ -377,7 +377,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "六花亭",
     name: "六花亭 札幌本店",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course9.png",
+    image: "/images/yasumochi/sweets.png",
     headline: "北海道老舗菓子店の本店！2階喫茶室では来店者限定スイーツが楽しめる",
     points: [
       "マルセイバターサンド・ストロベリーチョコなど名物がずらり",
@@ -397,7 +397,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "四季花まる",
     name: "四季 花まる すすきの店",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course4.png",
+    image: "/images/yasumochi/kaisen.png",
     headline: "北海道の人気回転寿司！すすきの店は個室の小上がりがあり、授乳しやすく乳幼児連れも安心",
     points: [
       "「根室花まる」の姉妹店で、ネタは本格派の回転寿司",
@@ -417,7 +417,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "狸小路",
     name: "狸小路商店街",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course5.png",
+    image: "/images/yasumochi/shopping.png",
     headline: "全長約900mのアーケード商店街！全天候型で雨でもベビーカーOK、お土産・食べ歩きも",
     points: [
       "アーケードで雨でも濡れず、ベビーカーでゆっくり歩ける",
@@ -437,7 +437,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "札幌三越",
     name: "札幌三越",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/course5.png",
+    image: "/images/yasumochi/shopping.png",
     headline: "大通駅直結の老舗百貨店！地下food売り場で北海道銘菓、ベビー休憩室も完備",
     points: [
       "地下food売り場で北海道のお土産・スイーツが揃う",
@@ -457,7 +457,7 @@ window.YASUMOCHI_SPOTS = [
   {
     key: "さとらんど",
     name: "さっぽろ さとらんど（札幌市農業体験交流施設）",
-    image: "https://raw.githubusercontent.com/yasumochi/hokkaido-family-course2-yasumochi/main/images/main.png",
+    image: "/images/yasumochi/main.png",
     headline: "【なのぱぱさんおすすめ】入園無料の農業体験施設！ヒツジ・ヤギのエサやりや芝生ピクニック",
     points: [
       "入園無料で、ヒツジ・ヤギへのエサやり・野菜収穫体験ができる",
