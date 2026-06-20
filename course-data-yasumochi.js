@@ -13,7 +13,47 @@
   { id: "solo-01", creator: "やすもち", creatorIcon: "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/me.jpg", title: "ワンオペ-01 円山動物園のんびり", timing: "ワンオペ", duration: "半日", transport: "公共交通機関", budget: "おさえめ", area: "札幌市内", age: "乳幼児 幼児 小学生低学年", style: "アクティブ派", note: "地下鉄東西線・円山公園駅から徒歩すぐの円山動物園。ベビーカーで園内をのんびり巡り、疲れたら隣接する円山公園の芝生やベンチでひと休み。ワンオペでも移動が少なく回りやすい構成。", steps: ["円山公園駅", "円山動物園", "円山公園で休憩"], stepImages: ["https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/nakajima.png", "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/nakajima.png", "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/nakajima.png"] },
   { id: "solo-02", creator: "やすもち", creatorIcon: "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/me.jpg", title: "ワンオペ-02 白い恋人パーク体験", timing: "ワンオペ", duration: "半日", transport: "公共交通機関", budget: "おさえめ", area: "札幌市内", age: "乳幼児 幼児 小学生低学年", style: "室内派", note: "地下鉄東西線・宮の沢駅直結の白い恋人パーク。屋内中心でお菓子づくり体験やからくり時計が楽しめ、雨の日でも安心。ベビールーム完備でワンオペでも落ち着いて過ごせる。", steps: ["宮の沢駅", "白い恋人パーク", "駅近くで休憩"], stepImages: ["https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/main.png", "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/factory.png", "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/main.png"] },
   { id: "solo-04", creator: "やすもち", creatorIcon: "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/me.jpg", title: "ワンオペ-04 交通資料館", timing: "ワンオペ", duration: "半日", transport: "公共交通機関", budget: "おさえめ", area: "札幌市内", age: "幼児 小学生低学年 小学生高学年", style: "アクティブ派", note: "実物の地下鉄車両やバスに乗り込める、乗り物好きの子に大人気の札幌市交通資料館。入館無料で、ワンオペでも気軽に立ち寄れるのが嬉しいスポット。", steps: ["交通資料館", "札幌市内でランチ"], stepImages: ["https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/factory.png", "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/main.png"] },
-  { id: "solo-06", creator: "やすもち", creatorIcon: "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/me.jpg", title: "ワンオペ-06 北大キャンパス散歩", timing: "ワンオペ", duration: "半日", transport: "公共交通機関", budget: "おさえめ", area: "札幌市内", age: "乳幼児 幼児 小学生低学年", style: "アクティブ派", note: "札幌駅から徒歩圏の北海道大学キャンパス。ポプラ並木やクラーク像を散歩し、北大総合博物館（入館無料）で休憩もできる。広々としてベビーカーで回りやすい緑のコース。", steps: ["札幌駅", "北大総合博物館", "ポプラ並木"], stepImages: ["https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/sapporo-station.png", "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/hokudai.png", "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/hokudai.png"] },
+  { id: "solo-06", creator: "やすもち", creatorIcon: "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/me.jpg", title: "ワンオペ-06 北大キャンパス散歩", timing: "ワンオペ", duration: "半日", transport: "公共交通機関", budget: "おさえめ", area: "札幌市内", age: "乳幼児 幼児 小学生低学年", style: "アクティブ派", note: "札幌駅から徒歩圏の北海道大学キャンパス。ポプラ並木やクラーク像を散歩し、北大総合博物館（入館無料）で休憩もできる。広々としてベビーカーで回りやすい緑のコース。", steps: ["札幌駅", "北大総合博物館", "ポプラ並木"], stepImages: ["https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/sapporo-station.png", "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/hokudai.png", "https://hokkaido-family-course2-yasumochi.pages.dev/images/yasumochi/hokudai.png"],
+    spots: {
+      "札幌駅": {
+        desc: "3家族の集合は南口「北海道四季彩館前」が分かりやすい！駅直結でベビーカー移動もラクラク。到着便がバラついても合流しやすい待ち合わせスポットです。",
+        highlights: [
+          { icon: "📍", title: "南口「北海道四季彩館前」が集合に最適", desc: "広くて目印になり、3家族10〜12名でも合流しやすい。" },
+          { icon: "🧳", title: "コインロッカーで身軽に", desc: "東・西改札外のロッカーに荷物を預けて移動できる。" },
+          { icon: "🍼", title: "パセオ地下1階にベビールーム", desc: "授乳・おむつ替えができて乳幼児連れも安心。" }
+        ],
+        voice: "まず四季彩館前に集合と決めておくと、到着便がバラついても合流しやすいです。",
+        budget: "－（集合場所）",
+        facilities: ["授乳室：あり（パセオ地下1階ベビールーム）", "おむつ替え台：あり", "ベビーカー貸出：周辺商業施設で貸出あり"],
+        data: { address: "札幌市北区北6条西4丁目", tel: "－", hours: "店舗により異なる", holiday: "店舗により異なる" },
+        official: "https://www.jr-tower.com/"
+      },
+      "北大総合博物館": {
+        desc: "札幌駅北口から徒歩5分。ポプラ並木をベビーカーで散歩でき、北大総合博物館は入館無料。屋内なので雨の日でも安心して過ごせます。",
+        highlights: [
+          { icon: "🌳", title: "整備された道でベビーカー散歩◎", desc: "ポプラ並木・クラーク像など、緑の中をのんびり歩ける。" },
+          { icon: "🏛️", title: "総合博物館は入館無料", desc: "屋内展示が充実。雨の日でもコスパよく楽しめる。" },
+          { icon: "🌿", title: "緑陰が多く休憩しやすい", desc: "乳幼児の外気浴やお昼寝の休憩にぴったり。" }
+        ],
+        voice: "広いキャンパスをベビーカーでのんびり。緑の中を歩くだけで気持ちよく、博物館は無料なのも嬉しいです。",
+        budget: "無料（キャンパス・博物館とも）",
+        facilities: ["授乳室：博物館内・要確認", "おむつ替え台：あり（博物館）", "ベビーカー貸出：なし"],
+        data: { address: "札幌市北区北8条西5丁目（JR札幌駅 北口から徒歩5分）", tel: "011-706-2658（北大総合博物館）", hours: "10:00〜17:00（金曜〜21:00）", holiday: "月曜休館" },
+        official: "https://www.museum.hokudai.ac.jp/"
+      },
+      "ポプラ並木": {
+        desc: "北大キャンパス名物のポプラ並木。まっすぐ伸びる並木道は写真映えも抜群で、ベビーカーでのんびり散策できる北海道らしい風景です。",
+        highlights: [
+          { icon: "🌲", title: "北海道らしい雄大な並木道", desc: "遊歩道を散歩でき、記念写真スポットとしても人気。" },
+          { icon: "👶", title: "平坦で歩きやすい", desc: "舗装された道でベビーカーでもスムーズに進める。" }
+        ],
+        voice: "並木道は『北海道に来た！』という気分になれる場所。子どもを抱っこして写真を撮るのにぴったりでした。",
+        budget: "無料",
+        facilities: ["授乳室：北大総合博物館で確認", "おむつ替え台：博物館にあり", "ベビーカー貸出：なし"],
+        data: { address: "札幌市北区北9条西7丁目（北海道大学構内）", tel: "－", hours: "見学自由（散策路は一部時間制限あり）", holiday: "無休" },
+        official: "https://www.hokudai.ac.jp/"
+      }
+    } },
 
   // ===== 新規：乳幼児3家族合同 1泊2日 10プラン =====
   // 対象：道外から来られる乳幼児連れご家族3組（10〜12名）／7/10金〜7/11土
