@@ -1,0 +1,10 @@
+# 他サイト（こうきママさんの統一サイト等）から
+# データ・画像を読み込めるようにする許可設定（CORS）
+/course-data-yasumochi.js
+  Access-Control-Allow-Origin: *
+
+/spots-yasumochi.js
+  Access-Control-Allow-Origin: *
+
+/images/*
+  Access-Control-Allow-Origin: *
